@@ -7,7 +7,7 @@ int main (void)
 {
     string text = get_string("text: ");
     int p=0,q=0,r;
-    
+
     {
         printf("Your Text is : %s\n", text);
     }
@@ -17,7 +17,9 @@ int main (void)
         {
             q++;
         }
-        
+
     }
     printf("no.of char is %i\n",q);
+    printf("are u happy");
 }
+
